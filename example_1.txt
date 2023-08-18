@@ -1,0 +1,37 @@
+public class Student {
+
+    private String name;
+    private String phone;
+
+    private String email;
+
+    private String id;
+
+    public void display(String name,String phone,String email,String id){
+
+        this.name=name;
+        this.phone=phone;
+        this.email=email;
+        this.id=id;
+
+        System.out.println("Name:"+name);
+        System.out.println("Phone:"+phone);
+        System.out.println("Email:"+email);
+        System.out.println("ID:"+id);
+
+    }
+
+}
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
+public class Main {
+    public static void main(String[] args) {
+
+
+        Student obj=new Student();  ///creating object for student
+        obj.display("Eisty","01770137655","esraq26552@gmail.com","14-26552-2");
+
+
+
+    }
+}

@@ -1,0 +1,77 @@
+public class Student {
+
+    private String name;
+    private String phone;
+
+    private String email;
+
+    private String id;
+
+
+    public void setName(String name){
+
+     this.name=name;
+
+    }
+   public String getName(){
+
+        return name;
+   }
+   public void setPhone(String phone){
+
+        this.phone=phone;
+   }
+   public String getPhone(){
+
+
+        return phone;
+   }
+
+   public void setEmail(String email){
+
+       this.email=email;
+
+   }
+   public String getEmail(){
+
+        return email;
+   }
+
+   public void setId(String id){
+
+    this.id=id;
+
+   }
+   public String getId(){
+
+        return id;
+   }
+   public void display(){
+
+        System.out.println("Name:"+getName());
+        System.out.println("Phone"+getPhone());
+        System.out.println("Email"+getEmail());
+        System.out.println("ID:"+getId());
+
+
+
+
+   }
+
+}
+// Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
+// then press Enter. You can now see whitespace characters in your code.
+public class Main {
+    public static void main(String[] args) {
+
+
+        Student obj=new Student();  ///creating object for student.display("Eisty","01770137655","esraq26552@gmail.com","14-26552-2");
+        obj.setName("Esraq");
+        obj.setEmail("esraq26552@gmail.com");
+        obj.setId("14-2655-2");
+        obj.setPhone("01770137655");
+        obj.display();
+
+
+    }
+}

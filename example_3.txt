@@ -1,0 +1,21 @@
+public class Student {
+
+
+   Student(){
+
+       System.out.print("Constructer called");
+
+
+   }
+
+}
+public class Main {
+    public static void main(String[] args) {
+
+
+        Student obj=new Student();  ///creating object for student.display("Eisty","01770137655","esraq26552@gmail.com","14-26552-2");
+
+
+
+    }
+}
